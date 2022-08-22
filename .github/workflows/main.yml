@@ -13,9 +13,9 @@ jobs:
         with:
           version: 7.2.1
       - name: Install modules
-        run: cd packages/smarty-ui-vite && pnpm install
+        run: cd packages/smart-ui-vite && pnpm install
       - name: Run Lint
-        run: cd packages/smarty-ui-vite && pnpm run lint
+        run: cd packages/smart-ui-vite && pnpm run lint
   UnitTest:
     runs-on: ubuntu-latest
     steps:
