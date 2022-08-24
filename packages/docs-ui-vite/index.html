@@ -1,13 +1,23 @@
-<h1>Demo IFFE</h1>
-<div id="app"></div>
-<link rel="stylesheet" href="../../dist/assets/entry.c857f8d3.css">
-<script src="../../node_modules/vue/dist/vue.global.js"></script>
-<script src="../../dist/Button/index.iife.js"></script>
-<script>
-    const { createApp } = Vue
+<html lang="en">
 
-    createApp({
-        template: `
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>🔨 SmartyUI Demo</h1>
+    <div id="app"></div>
+    <script type="module">
+        import style from "smart-ui-vite/dist/assets/entry.c857f8d3.css"
+        import { createApp } from "vue/dist/vue.esm-bundler.js";
+        import SmartyUI, { SFCButton, JSXButton, MyButton } from "smart-ui-vite/dist/smarty-ui.mjs";
+
+        createApp({
+            template: `
         <div style="margin-bottom:20px;">
             <MyButton color="blue">主要按钮</MyButton>
             <MyButton color="green">绿色按钮</MyButton>
@@ -42,9 +52,9 @@
             <MyButton color="yellow" round plain icon="message"></MyButton>
             <MyButton color="red" round plain icon="delete"></MyButton>
         </div>
-    `
-    })
-        .use(Button.default)
-        .mount('#app')
+    `}).use(SmartyUI).mount('#app')
 
-</script>
+    </script>
+</body>
+
+</html>

@@ -1,12 +1,12 @@
 /// <reference types="vitest" />
 
-import { defineConfig } from "vite";
+import { defineConfig, UserConfig } from "vite";
 const path = require("path");
 import Vue from "@vitejs/plugin-vue";
 import vueJsx from "@vitejs/plugin-vue-jsx";
 import UnoCss from "./config/unocss";
 
-export default defineConfig({
+export const config = {
   build: {
     lib: {
       entry: path.resolve(__dirname, "src/entry.ts"),
@@ -26,6 +26,7 @@ export default defineConfig({
     cssCodeSplit: true,
     brotliSize: true,
     sourcemap: true,
+    outDir: "./dist",
   },
   plugins: [
     // 添加JSX插件
@@ -40,4 +41,6 @@ export default defineConfig({
       web: [/\.[tj]sx$/],
     },
   },
-});
+};
+
+export default defineConfig(config as UserConfig);

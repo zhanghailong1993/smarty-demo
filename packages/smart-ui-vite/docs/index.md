@@ -13,13 +13,13 @@
 
 ## Install
 ```bash
-npm i smarty-admin-ui
+npm i smart-admin-ui
 ```
 
 ## Quick Start
 ```js
 import Vue from 'vue'
-import SmartyUI from 'element-ui'
+import SmartyUI from 'smart-admin-ui'
 
   const App = {
     template: `
