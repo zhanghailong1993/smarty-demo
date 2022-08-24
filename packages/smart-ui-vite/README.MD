@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-<img src="https://github.com/smarty-team/smarty-admin/blob/main/assets/logo.jpeg" style="width:200px;" />
+<img src="https://github.com/zhanghailong1993/smarty-demo/blob/main/assets/logo.jpeg" style="width:200px;" />
 </p>
 <h1 align="center">Smarty-Admin-UI</h1>
 
@@ -11,8 +11,8 @@
 <p align="center">
 <a href="https://www.npmjs.com/package/smarty-admin-ui"><img src="https://img.shields.io/npm/v/smart-ui-vite?color=red" alt="NPM version"></a></p>
 
-[![CI](https://github.com/smarty-team/smarty-admin/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/smarty-team/smarty-admin/actions/workflows/main.yml)![MIT](https://img.shields.io/github/license/smarty-team/smarty-admin?color=red)
-[![codecov](https://codecov.io/gh/smarty-team/smarty-admin/branch/main/graph/badge.svg?token=7QHP5W7BHZ)](https://codecov.io/gh/smarty-team/smarty-admin)
+[![CI](https://github.com/zhanghailong1993/smarty-demo/blob/main/.github/workflows/main.yml)](https://github.com/zhanghailong1993/smarty-demo/blob/main/.github/workflows/main.yml)![MIT](https://img.shields.io/github/license/smarty-team/smarty-admin?color=red)
+[![codecov](https://github.com/zhanghailong1993/smarty-demo)](https://github.com/zhanghailong1993/smarty-demo)
 
 <br>
 <br>
@@ -28,7 +28,7 @@
 - Vitepress + Vercel 文档网站搭建
 - 基于Action CI 实现持续集成与交付
 
-<img src="https://github.com/smarty-team/smarty-admin/blob/main/assets/demo.gif" style="width:80%;" />
+<img src="https://github.com/zhanghailong1993/smarty-demo/blob/main/assets/demo.gif" style="width:80%;" />
 
 ## Quick Start
 希望尽快上手 Smarty-UI，可以浏览 [Getting Started](https://smarty-demo.vercel.app/).
@@ -41,8 +41,6 @@ Modern browsers and Internet Explorer 10+.
 ## Join Discussion Group
 
 Scan the QR code using [Dingtalk App](https://www.dingtalk.com/) to join in discussion group :
-
-<img alt="Join Discusion Group" src="https://github.com/smarty-team/smarty-admin/blob/main/assets/dingding.jpeg" width="300">
 
 ## LICENSE
 [MIT](../../LICENSE)
