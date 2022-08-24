@@ -41,8 +41,8 @@ export const config = {
       web: [/\.[tj]sx$/],
     },
     coverage: {
-      provider: "istanbul",
       reporter: ["text", "json", "html"],
+      provider: "istanbul",
     },
   },
 };
