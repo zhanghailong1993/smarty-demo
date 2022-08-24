@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://smarty-demo.vercel.app/",
   "scripts": {
     "test": "vitest",
     "lint": "eslint --fix --ext .ts,.vue,.tsx src",
