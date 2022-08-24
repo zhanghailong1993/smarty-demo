@@ -12,8 +12,8 @@
 <a href="https://www.npmjs.com/package/smarty-admin-ui"><img src="https://img.shields.io/npm/v/smart-ui-vite?color=red" alt="NPM version"></a></p>
 
 [![CI](https://github.com/zhanghailong1993/smarty-demo/blob/main/.github/workflows/main.yml)](https://github.com/zhanghailong1993/smarty-demo/blob/main/.github/workflows/main.yml)![MIT](https://img.shields.io/github/license/smarty-team/smarty-admin?color=red)
-[![codecov](https://github.com/zhanghailong1993/smarty-demo)](https://github.com/zhanghailong1993/smarty-demo)
 
+[![codecov](https://codecov.io/gh/zhanghailong1993/smarty-demo/branch/main/graph/badge.svg?token=ECSMXGGO6H)](https://codecov.io/gh/zhanghailong1993/smarty-demo)
 <br>
 <br>
 
